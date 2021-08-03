@@ -1,0 +1,27 @@
+{
+  "ProjectName": "Easy Go Mongo",
+  "ProjectDescription": "An example golang project for connecting Golang to MongoDB",
+  "Version": "0.1.0",
+  "ENV": "dev",
+  "TimeZone": "Asia/Bangkok",
+  "Listening": {
+    "IP": "localhost",
+    "Port": "80"
+  },
+  "Databases": {
+    "EasyGoDB": {
+      "Protocol": "mongodb",
+      "IP": "starbucks01.kube.baac.or.th",
+      "Port": "27017",
+      "DBName": "easy_go",
+      "User": "baacadmin",
+      "Password": "1qazse4!QAZSE$",
+      "AuthSource": "admin",
+      "AuthMechanism": "SCRAM-SHA-1",
+      "Collections": {
+        "TodoList": "todo_list_ning"
+      }
+    }
+
+  }
+}
